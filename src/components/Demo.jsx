@@ -7,7 +7,7 @@ const Demo = () => {
       Take a Free Demo
     </h1>
 
-    <div className="flex flex-col gap-8 sm:gap-0 sm:flex-row p-6 justify-around">
+    <div className="flex flex-col gap-8 sm:gap-0 sm:flex-row p-6 items-center justify-around">
       <div className="md:w-2/5 w-full ">
         <form  className="">
           <div className="flex flex-col gap-4">
@@ -62,7 +62,7 @@ const Demo = () => {
           </div>
           <button
             type="submit"
-            className="bg-[#15423C] px-8  py-2 font-nunito  rounded-sm mt-4 flex justify-start text-white"
+            className="bg-[#FF5500] px-8  py-2 font-nunito  rounded-sm mt-4 flex justify-start text-white"
           >Submit{
             //   loading ? "Submitting...." : "Submit" 
             // Submit
@@ -73,7 +73,7 @@ const Demo = () => {
       </div>
 
       <div className="md:w-2/5 w-full">
-        <img src="https://www.tmbill.com/img/tmbill_request_for_demo.png" alt="Image" />
+        <img src="/livedemo.png" alt="Image" />
       </div>
     </div>
   </div>

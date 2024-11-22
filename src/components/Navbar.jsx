@@ -13,7 +13,7 @@ const Navbar = () => {
 
   return (
     <div className="">
-      <div className="flex justify-between px-40 py-6 items-center shadow-sm">
+      <div className="flex justify-between gap-10 px-40 py-6 items-center shadow-sm">
         {/* <h2 className='text-2xl text-headingColor'>TmBill Nepal</h2> */}
 
         <img className="w-36" src="/logo.png" alt="Logo" />
@@ -38,9 +38,9 @@ const Navbar = () => {
             <p className="font-poppins hover:text-hoverColor cursor-pointer">
               Pricing
             </p>
-            <p className="font-poppins hover:text-hoverColor cursor-pointer">
+            <button className="font-poppins bg-[#15423C] hover:text-hoverColor cursor-pointer">
               Get Started
-            </p>
+            </button>
           </div>
         ) : (
           <div className="hidden sm:flex space-x-6">
