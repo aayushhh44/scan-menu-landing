@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import heroImage from "/image.png";
 import Opening from "./Opening";
 
 
@@ -30,7 +29,7 @@ const Hero = () => {
 
           <div className="flex flex-col sm:flex-row gap-4 sm:gap-1">
             <button
-              smooth={true}
+              smooth="true"
               to="form"
               className="bg-gray-700 text-white cursor-pointer font-poppins text-nowrap font-nunito p-3 rounded-sm"
             >
